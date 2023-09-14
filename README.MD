@@ -6,7 +6,7 @@
 
 - [Overview](#overview)
   - [The Challenge](#challenge)
-- [My process](#my-process)
+  - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
 
@@ -18,7 +18,15 @@
  - access ft.com and save into html file in format date-ft.html (3108-ft.html)
  - script should run every 5 mins
     
-## My process
+  ### My process
+
+  - Created an "If" statement, to check if an "FT" directory exists in the current working directory, and to create a new directory "FT" if it does not exist.
+  - Created a variable "filename", to store the format in which the filename should be saved as; As per the instruction, the file is supposed to be downloaded into an HTML file and saved in the format "date-ft.html" with "date" being in date and month format.
+  - Used the "curl" command, to access the "https://www.ft.com" website and saved it into a specific directory using the "-o" option followed by the path of the file, with the filename variable "$filename" attached at the end of the file path.
+  - Used the "echo" command, to appended a string comprised of a text description and the date command "$(date)" to a log file (script_log.txt).
+  - Used the "echo" command, to print out the current value of the ($filename) variable.
+  - Used the "echo" command to print a Success message (TASK COMPLETED SUCCESSFULLY).
+  - Used the "cron" utility in linux to make the script run every 5 minutes; I opened the cron tab file with the "crontab -e" command, Added the "*/5 * * * *" command to make it run every 5 minutes, then i added the absolute path to the shell script file and appended it to the "script_log.txt" log file, using its absolute path.
 
   ### Built with
  - Linux
