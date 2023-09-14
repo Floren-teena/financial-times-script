@@ -31,8 +31,9 @@
   ### Built with
  - Linux
  - Ubuntu 
- - vi editor
- - vs code
+ - Vi editor
+ - Cron tab file in linux
+ - Visual Studio Code IDE
 
 ## Author
 
