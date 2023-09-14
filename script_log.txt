@@ -159,3 +159,8 @@ TASK COMPLETED SUCCESSFULLY
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100  323k  100  323k    0     0   188k      0  0:00:01  0:00:01 --:--:--  188k
 1409-ft.html
 TASK COMPLETED SUCCESSFULLY
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0  323k    0  2669    0     0   1853      0  0:02:58  0:00:01  0:02:57  1853100  323k  100  323k    0     0   170k      0  0:00:01  0:00:01 --:--:--  170k
+1409-ft.html
+TASK COMPLETED SUCCESSFULLY
