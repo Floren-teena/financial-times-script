@@ -26,7 +26,7 @@
   - Used the "echo" command, to appended a string comprised of a text description and the date command "$(date)" to a log file (script_log.txt).
   - Used the "echo" command, to print out the current value of the ($filename) variable.
   - Used the "echo" command to print a Success message (TASK COMPLETED SUCCESSFULLY).
-  - Used the "cron" utility in linux to make the script run every 5 minutes; I opened the cron tab file with the "crontab -e" command, Added the "*/5 * * * *" command to make it run every 5 minutes, then i added the absolute path to the shell script file and appended it to the "script_log.txt" log file, using its absolute path.
+  - Used the "cron" utility in linux to make the script run every 5 minutes; I opened the cron tab file with the "crontab -e" command, Added the "*/5 * * * *" command to make it run every 5 minutes, then i added the absolute path to the shell script file and appended it to the "script_log.txt" log file to print the output and the "2>&1" command to print the error message(s) if any.
 
   ### Built with
  - Linux
